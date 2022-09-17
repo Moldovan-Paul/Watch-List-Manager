@@ -1,6 +1,6 @@
 # About this project
 
-<img src="https://user-images.githubusercontent.com/98110966/190860424-0cbf0355-55e9-4576-a7f0-5cc5159e1051.png" width="600" heigth="600">
+<img src="https://user-images.githubusercontent.com/98110966/190871384-2dfce560-dfdd-48a1-9eae-32659d370731.png" width="700" heigth="600">
 
 # Overview
 
@@ -39,7 +39,7 @@ Video information can also be **updated** by filling the fields and pressing the
 
 Here is a video demonstrating the functionalities mentioned above. It shows a C++ Tutorial getting **added**, **updated** and then **deleted** from the list. All other videos were added through the `in.txt` file.
 
-https://user-images.githubusercontent.com/98110966/190869491-f676e87b-2586-4271-a19b-792ec9d6ad36.mp4
+https://user-images.githubusercontent.com/98110966/190871445-e10762e1-9fa0-4001-b5d2-4726476c6420.mp4
 
 # Creating a Watch List
 
