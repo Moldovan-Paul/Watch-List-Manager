@@ -49,4 +49,4 @@ Once the user is satisfied with their watch list, they can choose to view it by 
 
 ### Demo #2
 
-Here is a video demonstrating the functionalities mentioned above. The list of videos is filtered by a presenter which has 4 video tutorials within the local repository of the user. Two of their C++ Tutorials get added to the watch list. The user then chooses to see their watch list. The first video gets deleted and the second video gets deleted and liked. Subsequently, it can be observed that its like count within the local repository went up by one.
+Here is a video demonstrating the functionalities mentioned above. The list of videos is filtered by a presenter. The user has 4 of their video tutorials within the local repository. Two of their C++ Tutorials get added to the watch list. The user then chooses to see their watch list. The first video gets deleted and the second video gets deleted and liked. Subsequently, it can be observed that its like count within the local repository went up by one.
