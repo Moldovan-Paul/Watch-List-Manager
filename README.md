@@ -39,7 +39,7 @@ Here is a video demonstrating the functionalities mentioned above. It shows a C+
 
 https://user-images.githubusercontent.com/98110966/190869491-f676e87b-2586-4271-a19b-792ec9d6ad36.mp4
 
-# Creating a watch list
+# Creating a Watch List
 
 In order to begin creating a watch list, the user must press the `Filter by presenter` button. If the text field next to this button is left empty, all tutorials will be played one by one. Otherwise, only tutorials corresponding to the given presenter will be shown.
 
