@@ -1,6 +1,6 @@
 # About this project
 
-<img src="https://user-images.githubusercontent.com/98110966/190871384-2dfce560-dfdd-48a1-9eae-32659d370731.png" width="700" heigth="600">
+<img src="https://user-images.githubusercontent.com/98110966/190877141-b0c40e76-982c-4907-a3b8-24127fcc6cbe.png" width="700" heigth="600">
 
 # Overview
 
@@ -39,7 +39,7 @@ Video information can also be **updated** by filling the fields and pressing the
 
 Here is a video demonstrating the functionalities mentioned above. It shows a C++ Tutorial getting **added**, **updated** and then **deleted** from the list. All other videos were added through the `in.txt` file.
 
-https://user-images.githubusercontent.com/98110966/190871445-e10762e1-9fa0-4001-b5d2-4726476c6420.mp4
+https://user-images.githubusercontent.com/98110966/190877257-4ec779be-f6da-41ae-a5bb-ef53c9953a66.mp4
 
 # Creating a Watch List
 
@@ -53,6 +53,6 @@ Once the user is satisfied with their watch list, they can choose to view it by 
 
 Here is a video demonstrating the functionalities mentioned above. The list of videos is filtered by a presenter; 4 of their videos are present in the local repository. Two of their C++ tutorials get added to the watch list. The user then chooses to view their watch list. The first video gets deleted and the second video gets deleted and liked. Subsequently, it can be observed that the second video's like count within the local repository went up by one.
 
-https://user-images.githubusercontent.com/98110966/190875787-566e888a-4707-42fa-b9b7-e10f1d390fb0.mp4
+https://user-images.githubusercontent.com/98110966/190877018-b4b6509a-d613-4838-8862-e36f18d543e8.mp4
 
 # Saving the Watch List
