@@ -10,6 +10,8 @@ FOR **VIDEO DEMONSTRATION** PLEASE REFER TO THE FOLLOWING ANCHORS:
 
 [Adding, updating and deleting entries](#demo-1)
 
+[Creating and viewing a watch list](#demo-2)
+
 # Adding Videos
 
 The user should provide the following information for each video:
