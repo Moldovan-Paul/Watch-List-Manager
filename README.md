@@ -29,6 +29,13 @@ Video information can also be **updated** by filling the fields and pressing the
 
 **All changes made** will remain valid after the application is closed.
 
-Here is a video demonstrating the functionalities mentioned above:
+### Demo #1
+
+Here is a video demonstrating the functionalities mentioned above. It shows a C++ Tutorial getting **added**, **updated** and then **deleted** from the list. All other videos were added through the `in.txt` file.
+
+
+
+
+https://user-images.githubusercontent.com/98110966/190869491-f676e87b-2586-4271-a19b-792ec9d6ad36.mp4
 
 
