@@ -4,7 +4,7 @@
 
 # Overview
 
-**Watch List Manager** is a desktop app that allows its user to create a local repository containing information about Youtube videos and create a watch list from it. It is written in **C++** and uses the **Qt Framework**.
+**Watch List Manager** is a desktop app that allows its user to create a local repository containing information about Youtube videos and create a watch list from it. It is written in **C++** and uses the **Qt Framework**. This project was done as an assignment for University and should be treated as a display of the ability to juggle with **object-oriented programming concepts**, rather than as a tool that is innovative.
 
 FOR **VIDEO DEMONSTRATION** PLEASE REFER TO THE FOLLOWING ANCHORS:
 
@@ -51,4 +51,8 @@ Once the user is satisfied with their watch list, they can choose to view it by 
 
 ### Demo #2
 
-Here is a video demonstrating the functionalities mentioned above. The list of videos is filtered by a presenter. The user has 4 of their video tutorials within the local repository. Two of their C++ Tutorials get added to the watch list. The user then chooses to see their watch list. The first video gets deleted and the second video gets deleted and liked. Subsequently, it can be observed that its like count within the local repository went up by one.
+Here is a video demonstrating the functionalities mentioned above. The list of videos is filtered by a presenter; 4 of their videos are present in the local repository. Two of their C++ tutorials get added to the watch list. The user then chooses to view their watch list. The first video gets deleted and the second video gets deleted and liked. Subsequently, it can be observed that the second video's like count within the local repository went up by one.
+
+https://user-images.githubusercontent.com/98110966/190875787-566e888a-4707-42fa-b9b7-e10f1d390fb0.mp4
+
+# Saving the Watch List
