@@ -1,0 +1,10 @@
+C++ Tutorial for Beginners - Full Course,freeCodeCamp,500,0,https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=12093s&ab_channel=freeCodeCamp.org
+C++ Crash Course,Bro Code,430,0,https://www.youtube.com/watch?v=uhFpPlMsLzY&ab_channel=BroCode
+C++ Programming Tutorial 1 - Intro to C++,Caleb Curry,10,0,https://www.youtube.com/watch?v=OTroAxvRNbw&ab_channel=CalebCurry
+C++ Programming Tutorial 2 - Getting Started,Caleb Curry,20,0,https://www.youtube.com/watch?v=aVqZ3lZD8Qk&ab_channel=CalebCurry
+C++ Tutorial 2021,Derek Banas,120,0,https://www.youtube.com/watch?v=6y0bp-mnYU0&ab_channel=DerekBanas
+How C++ Works,The Cherno,20,0,https://www.youtube.com/watch?v=SfGuIVzE_Os&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=5&ab_channel=TheCherno
+C++ Header Files,The Cherno,15,0,https://www.youtube.com/watch?v=9RJTQmK0YPI&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=10&ab_channel=TheCherno
+How to DEBUG C++ in VISUAL STUDIO,The Cherno,19,0,https://www.youtube.com/watch?v=0ebzPwixrJA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=11&ab_channel=TheCherno
+Pointers in C++,The Cherno,17,0,https://www.youtube.com/watch?v=DTxHyVn0ODg&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=16&ab_channel=TheCherno
+Learn C++ With Me #18 - Vectors,Tech With Tim,13,0,https://www.youtube.com/watch?v=RXzzE2wnnlo&ab_channel=TechWithTim
