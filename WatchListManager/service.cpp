@@ -1,5 +1,10 @@
 #include "service.h"
 
+Service::Service()
+{
+
+}
+
 Service::Service(const Repository& repository, WatchList* watchlist)
 {
 	this->repository = repository;
@@ -51,6 +56,8 @@ WatchList* Service::getWL()
 	return this->watchlist;
 }
 
+
+
 WatchList* Service::filterByPresenter(const std::string& presenter)
 {
 	WatchList* filter = new WatchList;
@@ -93,19 +100,33 @@ void Service::serviceTests()
 	WatchList* wl{};
 	Service service(repo, wl);
 	assert(service.addService(Tutorial("a", "b", 2, 2, "c")) == 1);
-	assert(service.addService(Tutorial("a", "b", 2, 2, "c")) == 0);
+	bool exceptionThrown = false;
+	try
+	{
+		assert(service.addService(Tutorial("a", "b", 2, 2, "c")) == 0);
+	}
+	catch (std::exception)
+	{
+		exceptionThrown = true;
+	}
+	assert(exceptionThrown);
 	assert(service.updateService("a", Tutorial("x", "y", 2, 2, "z")) == 1);
-	assert(service.delService("a") == 0);
+	exceptionThrown = false;
+	try
+	{
+		assert(service.delService("a") == 0);
+	}
+	catch (std::exception)
+	{
+		exceptionThrown = true;
+	}
+	assert(exceptionThrown);
 	assert(service.delService("x") == 1);
-    assert(service.getLengthService() == 0);
-    assert(service.addServiceWL(Tutorial("a", "b", 2, 2, "c")) == 1);
-    assert(service.delServiceWL("a") == 1);
     assert(service.getRepo().size() == 0);
-    assert(service.getLengthWL() == 0);
-    assert(service.getWL()->getLengthWL() == 0);
     assert(service.addService(Tutorial("a", "b", 2, 2, "c")) == 1);
     assert(service.addService(Tutorial("b", "b", 2, 2, "c")) == 1);
     assert(service.addService(Tutorial("c", "b", 2, 2, "c")) == 1);
-    assert(service.filterByPresenter("b")->getLengthWL() == 3);
-    service.likeTutorial("a");
 }
+
+
+

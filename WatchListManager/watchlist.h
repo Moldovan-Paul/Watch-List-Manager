@@ -20,5 +20,4 @@ public:
 	virtual void displayWL();
 
     Tutorial operator[](int pos);
-	static void watchlistTests();
 };

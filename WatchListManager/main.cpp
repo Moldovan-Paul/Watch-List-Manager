@@ -2,7 +2,7 @@
 #include <QtWidgets/QApplication>
 #include "watchlist.h"
 #include "dynamicvector.h"
-#include<iostream>
+#include <iostream>
 #include "csv-html.h"
 
 int main(int argc, char *argv[])

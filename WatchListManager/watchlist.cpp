@@ -67,22 +67,3 @@ Tutorial WatchList::operator[](int pos)
 	return this->tutorials[pos];
 }
 
-/*void WatchList::watchlistTests()
-{
-	WatchList wl;
-	assert(wl.getLengthWL() == 0);
-	assert(wl.addWL(Tutorial("a", "b", 2, 2, "c")) == 1);
-	assert(wl.getLengthWL() == 1);
-	assert(wl.addWL(Tutorial("a", "b", 2, 2, "c")) == 0);
-	assert(wl.delWL("b") == 0);
-	assert(wl.delWL("a") == 1);
-	assert(wl.getLengthWL() == 0);
-    wl.incrementCurrent();
-    assert(wl.current == 1);
-    assert(wl.addWL(Tutorial("a", "b", 2, 2, "c")) == 1);
-    assert(wl.addWL(Tutorial("z", "b", 2, 2, "c")) == 1);
-    assert(wl.getTutorial().getTitle() == "z");
-    assert(wl[0].getTitle() == "a");
-    wl.incrementCurrent();
-    assert(wl.current == 0);
-}*/

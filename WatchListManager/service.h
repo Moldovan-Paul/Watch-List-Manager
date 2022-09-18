@@ -25,6 +25,7 @@ public:
 	int delServiceWL(const std::string& title);
 	int getLengthWL() const;
 	WatchList* getWL();
+
     ///Creates and returns a WatchList object containing only the tutorials which have in common a given presenter
 	WatchList* filterByPresenter(const std::string& presenter);
     ///Increments number of likes by 1 of a tutorial given by title

@@ -86,24 +86,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="csv-html.cpp" />
+    <ClCompile Include="domain.cpp" />
+    <ClCompile Include="repository.cpp" />
+    <ClCompile Include="service.cpp" />
+    <ClCompile Include="watchlist.cpp" />
     <QtRcc Include="GUI.qrc" />
     <QtUic Include="GUI.ui" />
     <QtMoc Include="GUI.h" />
-    <ClCompile Include="..\..\Assignment 4-5\Assignment 4-5\csv-html.cpp" />
-    <ClCompile Include="..\..\Assignment 4-5\Assignment 4-5\domain.cpp" />
-    <ClCompile Include="..\..\Assignment 4-5\Assignment 4-5\repository.cpp" />
-    <ClCompile Include="..\..\Assignment 4-5\Assignment 4-5\service.cpp" />
-    <ClCompile Include="..\..\Assignment 4-5\Assignment 4-5\watchlist.cpp" />
     <ClCompile Include="GUI.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Assignment 4-5\Assignment 4-5\repository.h" />
-    <ClInclude Include="..\..\Assignment 4-5\Assignment 4-5\service.h" />
-    <ClInclude Include="..\..\Assignment 4-5\Assignment 4-5\watchlist.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\Assignment 4-5\Assignment 4-5\save.html" />
+    <ClInclude Include="csv-html.h" />
+    <ClInclude Include="domain.h" />
+    <ClInclude Include="repository.h" />
+    <ClInclude Include="service.h" />
+    <ClInclude Include="watchlist.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt" />

@@ -75,7 +75,7 @@ void Repository::readFromFile()
 
 void Repository::writeToFile()
 {
-	std::ofstream f("out.txt", std::ios::in);
+	std::ofstream f("in.txt");
 	if (!f.is_open())
 		return;
 	for (auto t : this->getRepo())
@@ -116,13 +116,40 @@ void Repository::repoTests()
 	assert(repo.getLength() == 0);
 	assert(repo.addRepo(Tutorial("a", "b", 2, 2, "c")) == 1);
 	assert(repo.getLength() == 1);
-	assert(repo.addRepo(Tutorial("a", "b", 2, 2, "c")) == 0);
-	assert(repo.delRepo("b") == 0);
+	bool exceptionThrown = false;
+	try
+	{
+		assert(repo.addRepo(Tutorial("a", "b", 2, 2, "c")) == 0);
+	}
+	catch (std::exception)
+	{
+		exceptionThrown = true;
+	}
+	assert(exceptionThrown);
+	exceptionThrown = false;
+	try
+	{
+		assert(repo.delRepo("b") == 0);
+	}
+	catch (std::exception)
+	{
+		exceptionThrown = true;
+	}
+	assert(exceptionThrown);
 	assert(repo.delRepo("a") == 1);
 	assert(repo.getLength() == 0);
 	assert(repo.addRepo(Tutorial("x", "y", 2, 2, "z")) == 1);
 	assert(repo.updateRepo("x", Tutorial("a", "b", 2, 2, "c")) == 1);
-	assert(repo.updateRepo("x", Tutorial("a", "b", 2, 2, "c")) == 0);
+	exceptionThrown = false;
+	try
+	{
+		assert(repo.updateRepo("x", Tutorial("a", "b", 2, 2, "c")) == 0);
+	}
+	catch (std::exception)
+	{
+		exceptionThrown = true;
+	}
+	assert(exceptionThrown);
 	assert(repo.find("a") != -1);
 	assert(repo.find("x") == -1);
     assert(repo.getRepo().size() == 1);

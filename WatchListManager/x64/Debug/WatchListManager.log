@@ -1,1 +1,10 @@
-﻿  WatchListManager.vcxproj -> C:\Users\Paul\source\repos\WatchListManager\x64\Debug\WatchListManager.exe
+﻿  csv-html.cpp
+  domain.cpp
+  repository.cpp
+  service.cpp
+  watchlist.cpp
+  GUI.cpp
+  main.cpp
+  qrc_GUI.cpp
+  moc_GUI.cpp
+  WatchListManager.vcxproj -> C:\Users\Paul\Watch-List-Manager\x64\Debug\WatchListManager.exe

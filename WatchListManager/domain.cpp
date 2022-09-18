@@ -5,7 +5,7 @@
 #include <Windows.h>
 #include <shellapi.h>
 #include <cassert>
-#include<vector>
+#include <vector>
 
 Tutorial::Tutorial(std::string title, std::string pname, int duration, int likes, std::string link)
 {
