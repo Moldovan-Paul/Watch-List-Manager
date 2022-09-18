@@ -1,7 +1,9 @@
 # About this project
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/98110966/190877141-b0c40e76-982c-4907-a3b8-24127fcc6cbe.png" width="700" heigth="600">
-
+</p>
+  
 # Overview
 
 **Watch List Manager** is a desktop application that allows its user to create a local repository containing information about Youtube videos and create a watch list from it. It is written in **C++** and uses the **Qt Framework**. This project was done as an assignment for University and should be treated as a display of the ability to juggle with **object-oriented programming concepts**, rather than as a tool that is innovative. I implemented a custom **dynamic vector** using the logic behind the *STL Vector* in an attempt to better my knowledge of **data structures and algorithms**. **Unit tests** are performed for repository and service layers and for the custom dynamic vector.
