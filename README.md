@@ -59,4 +59,5 @@ https://user-images.githubusercontent.com/98110966/190877455-c4c487e6-2e84-4999-
 
 A watch list can be saved by pressing the `Save Watch List` button. A **csv/html** file will open containing information about the videos. Due to the nature of the implementation, the file type can only be chosen in code before starting the program (in `main.cpp` alternating between lines 15-19 and 20-24).
 
-<img src="https://user-images.githubusercontent.com/98110966/190877643-5b2056bd-0fb7-4c8f-9f05-a9a9be3cbf48.png" width="700" heigth="200">
+<img src="https://user-images.githubusercontent.com/98110966/190888568-8428efb0-f1f5-411b-ab3d-40bf797997e1.png" width="700" heigth="200">
+<img src="https://user-images.githubusercontent.com/98110966/190888493-adb064d9-0a7e-4a72-9022-480277c59d73.png" width="700" heigth="200">
